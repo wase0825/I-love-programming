@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <title>簡易圍棋</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>簡易圍棋遊戲</h1>
+  
+  <!-- 提子數顯示 -->
+  <div class="capture-box">
+    <div id="black-captures" class="captured">黑提子數：<span id="black-count">0</span></div>
+    <div id="white-captures" class="captured">白提子數：<span id="white-count">0</span></div>
+  </div>
+  
+  <!-- 棋盤 -->
+  <div id="board"></div>
+  
+  <!-- 控制區 -->
+  <div class="controls">
+    <button id="pass-btn">Pass</button>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
+
